@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>memberLogon</servlet-name>
+    <servlet-class>com.Ngbussiness.server.memberLogon</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>membersServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.membersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>bussinesspbServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.bussinesspbServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerifyBussinessServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.VerifyBussinessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerifyBusCodeServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.VerifyBusCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddYongjinServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.AddYongjinServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RechargeServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.RechargeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowMoneyServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.ShowMoneyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyCouponServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.MyCouponServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CouponDetailServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.CouponDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UseTheCouponServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.UseTheCouponServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyRedmoneyServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.MyRedmoneyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetbusinfromationServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.GetbusinfromationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Platform_reveServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.Platform_reveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getred_moneyServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.getred_moneyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getnearbusinessServlet</servlet-name>
+    <servlet-class>com.Ngbussiness.server.getnearbusinessServlet</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>memberLogon</servlet-name>
+    <url-pattern>/memberLogon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>membersServlet</servlet-name>
+    <url-pattern>/membersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyBussinessServlet</servlet-name>
+    <url-pattern>/VerifyBussinessServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyBusCodeServlet</servlet-name>
+    <url-pattern>/VerifyBusCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddYongjinServlet</servlet-name>
+    <url-pattern>/AddYongjinServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RechargeServlet</servlet-name>
+    <url-pattern>/RechargeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowMoneyServlet</servlet-name>
+    <url-pattern>/ShowMoneyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyCouponServlet</servlet-name>
+    <url-pattern>/MyCouponServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CouponDetailServlet</servlet-name>
+    <url-pattern>/CouponDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UseTheCouponServlet</servlet-name>
+    <url-pattern>/UseTheCouponServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyRedmoneyServlet</servlet-name>
+    <url-pattern>/MyRedmoneyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bussinesspbServlet</servlet-name>
+    <url-pattern>/bussinesspbServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetbusinfromationServlet</servlet-name>
+    <url-pattern>/GetbusinfromationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Platform_reveServlet</servlet-name>
+    <url-pattern>/Platform_reveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getred_moneyServlet</servlet-name>
+    <url-pattern>/getred_moneyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getnearbusinessServlet</servlet-name>
+    <url-pattern>/getnearbusinessServlet</url-pattern>
+  </servlet-mapping>
+  	
+  <welcome-file-list>
+    <welcome-file>MyJsp.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
